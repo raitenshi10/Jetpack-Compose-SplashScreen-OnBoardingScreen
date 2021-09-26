@@ -1,4 +1,6 @@
-package com.example.basicjetpackcompose
+package com.example.basicjetpackcompose.data
+
+import com.example.basicjetpackcompose.R
 
 data class OnBoardingItem(
     val title: String,
@@ -21,7 +23,8 @@ data class OnBoardingItem(
                 OnBoardingItem(
                     "Dolor",
                     "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                    R.drawable.onboarding3)
+                    R.drawable.onboarding3
+                )
             )
         }
     }
